@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.canteiner {
+    width: 1300px;
+    height: 700px;
+    margin: 100px auto;
+    background-image: linear-gradient(to right, white, skyblue);
+}
+.overflow {
+    width: auto;
+    height: 380px;
+    margin: 250px 30px;
+    border: 5px dotted black;
+}
+
+.vis {
+    width: 150px;
+    height: 300px;
+    overflow: visible;
+    border: 3px groove red;
+    float: left;
+}
+.hid {
+    width: 150px;
+    height: 300px;
+    overflow: hidden;   
+    border: 3px groove blue;
+    float: left;
+}
+.scr {
+    width: 150px;
+    height: 300px;
+    overflow: scroll;
+    border: 3px groove yellow;
+    float: left;
+}
+.aut {
+    width: 150px;
+    height: 300px;
+    overflow: auto;
+    border: 3px groove green;
+    float: left;
+}
+.st {
+    display: block;
+}
+.nd {
+    display: block;
+}
+.rd {
+    display: block;
+}
+.th {
+    display: block;
+}
+.visible {
+    margin: 10px;
+    float: left;
+}
+.hidden {
+    margin: 10px;
+    float: left;
+}
+.scroll {
+    margin: 10px;
+    float: left;
+}
+.auto {
+    margin: 10px;
+    float: left;
+}
